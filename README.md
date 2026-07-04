@@ -65,5 +65,8 @@ pip install requests colorama pyfiglet
 mkdir -p ~/vornexcall
 cd ~/vornexcall
 
-# 7. Script dosyasını oluşturun
-nano vornex.py
+# 7. Git paketini indirin
+pkg install git
+
+#8. Projeyi kopyalayın
+git clone https://github.com/VornexxBaba/Call-Spam-Vornex
