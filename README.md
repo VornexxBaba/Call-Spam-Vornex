@@ -60,6 +60,8 @@ pip install --upgrade pip
 
 # 5. Repoyu klonlayın ve klasöre girin
 git clone [https://github.com/VornexxBaba/Call-Spam-Vornex.git](https://github.com/VornexxBaba/Call-Spam-Vornex.git)
+
+#Klasörü açın
 cd Call-Spam-Vornex
 
 # 6. Gerekli kütüphaneleri yükleyin
