@@ -59,7 +59,7 @@ termux-setup-storage
 pip install --upgrade pip
 
 # 5. Repoyu klonlayın ve klasöre girin
-git clone [https://github.com/VornexxBaba/Call-Spam-Vornex.git](https://github.com/VornexxBaba/Call-Spam-Vornex.git)
+git clone https://github.com/VornexxBaba/Call-Spam-Vornex/tree/main
 
 #Klasörü açın
 cd Call-Spam-Vornex
