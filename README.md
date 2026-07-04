@@ -45,27 +45,10 @@ Termux'u F-Droid'den indirin (Google Play'deki sürüm güncel değil):
 Termux uygulamasını açın ve aşağıdaki komutları sırayla girin:
 
 ```bash
-# 1. Termux depolarını güncelleyin
 pkg update -y && pkg upgrade -y
-
-# 2. Temel paketleri yükleyin
-pkg install -y python python-pip git curl wget nano
-
-# 3. Depolama izni verin (dosya paylaşımı için)
-termux-setup-storage
-#Gelen sekmede "İzin ver" Seçeneğini seçin
-
-# 4. Python pip'i güncelleyin
-pip install --upgrade pip
-
-# 5. Repoyu klonlayın ve klasöre girin
-git clone https://github.com/VornexxBaba/Call-Spam-Vornex/tree/main
-
-#Klasörü açın
+pkg install -y git python
+git clone https://github.com/VornexxBaba/Call-Spam-Vornex.git
 cd Call-Spam-Vornex
-
-# 6. Gerekli kütüphaneleri yükleyin
 pip install requests colorama pyfiglet
-
-# 7. Programı çalıştırın
+python main.py
 python3 main.py
