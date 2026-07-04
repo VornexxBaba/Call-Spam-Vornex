@@ -53,20 +53,17 @@ pkg install -y python python-pip git curl wget nano
 
 # 3. Depolama izni verin (dosya paylaşımı için)
 termux-setup-storage
-# Çıkan izin penceresinde "İzin Ver"e tıklayın
+#Gelen sekmede "İzin ver" Seçeneğini seçin
 
 # 4. Python pip'i güncelleyin
 pip install --upgrade pip
 
-# 5. Gerekli Python kütüphanelerini yükleyin
+# 5. Repoyu klonlayın ve klasöre girin
+git clone [https://github.com/VornexxBaba/Call-Spam-Vornex.git](https://github.com/VornexxBaba/Call-Spam-Vornex.git)
+cd Call-Spam-Vornex
+
+# 6. Gerekli kütüphaneleri yükleyin
 pip install requests colorama pyfiglet
 
-# 6. Çalışma dizini oluşturun
-mkdir -p ~/vornexcall
-cd ~/vornexcall
-
-# 7. Git paketini indirin
-pkg install git
-
-#8. Projeyi kopyalayın
-git clone https://github.com/VornexxBaba/Call-Spam-Vornex
+# 7. Programı çalıştırın
+python3 main.py
