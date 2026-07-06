@@ -46,7 +46,8 @@ Termux uygulamasını açın ve aşağıdaki komutları sırayla girin:
 
 ```bash
 pkg update -y && pkg upgrade -y
-pkg install -y git python
+pkg install python -y
+pkg install git -y
 git clone https://github.com/VornexxBaba/Call-Spam-Vornex.git
 cd Call-Spam-Vornex
 pip install requests colorama pyfiglet
